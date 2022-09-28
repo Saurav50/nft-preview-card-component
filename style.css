@@ -1,0 +1,106 @@
+html {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* .shadow-container {
+  box-shadow: ;
+} */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  padding: 10px;
+  gap: 15px;
+  font-size: 18px;
+  border-radius: 15px;
+  box-shadow: 0px 20px 20px 20px hsl(217, 54%, 11%, 1),
+    10px 0px 40px 40px hsl(216, 50%, 16%, 0.3);
+}
+.img1 {
+  width: 90%;
+  align-self: center;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.el2 {
+  color: hsl(0, 0%, 100%);
+  padding: 0 5%;
+  font-weight: 600;
+}
+.el3 {
+  padding: 0 5%;
+  color: hsl(215, 51%, 70%);
+}
+.el4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.5%;
+}
+.el4 .el1 {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+.el4 .el2 {
+  color: hsl(215, 51%, 70%);
+}
+.el5 {
+  height: 2px;
+  background-color: hsl(215, 32%, 27%);
+  width: 90%;
+  align-self: center;
+}
+.el4 .el1,
+.el4 .el2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.el6 img {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+.el6 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 0 5%;
+  margin-bottom: 15px;
+}
+#foot-1 {
+  color: hsl(215, 51%, 70%);
+}
+#foot-2 {
+  color: hsl(0, 0%, 100%);
+}
+#foot-2:active,
+.container > .el2:active {
+  color: hsl(178, 100%, 50%);
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+.img1:hover {
+}
+.img2 {
+  display: none;
+}
